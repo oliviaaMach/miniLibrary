@@ -6,6 +6,8 @@ export class book {
         this.id = Math.random().toString(36).slice(2);
     }
 
+
+    //var kommer denna ifrån?
     getInfo() {
     return `${this.title} av ${this.author} (${this.year})`;
     }

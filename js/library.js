@@ -2,6 +2,7 @@ export class library {
     constructor() {
         this.books = [];
     }
+
     addBook(book) {
     this.books.push(book);
     }
@@ -18,3 +19,5 @@ export class library {
         return this.books.map(book => book.getInfo());
     };
 }
+
+//Är removeBook , findBook osv. om man har en input osv?
